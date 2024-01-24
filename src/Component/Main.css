@@ -1,0 +1,58 @@
+.Main{
+    background-color: rgb(4, 80, 80);
+    color: white;
+    border: 2px solid red;
+    max-width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.border{
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: rgb(5, 71, 52);
+    box-shadow:2px 4px 6px rgb(12, 12, 12) ;
+    border: 1px dotted white;
+}
+.Inp{
+    width: 100%;
+    height: 1.4rem;
+    border-radius: 8px;
+    border:none;
+   
+}
+.Inp1{
+    width: 20%;
+    height: 2rem;
+    border-radius: 8px;
+    border:none;
+    font-size: 1.2rem;  
+}
+.Btnn{
+    width: 10%;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-top: 1.8rem;
+}
+.List{
+    width: 60%;
+    height: 30px;
+    padding: 1rem;
+    /* border: 2px solid red; */
+    box-shadow:2px 4px 6px rgb(12, 12, 12) ;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
